@@ -9,5 +9,5 @@
   "fail_upload": false,
   "hang_upload": false,
   "hang_upload_forever": false,
-  "slow_check_minutes": 0
+  "slow_check_minutes": 15
 }
