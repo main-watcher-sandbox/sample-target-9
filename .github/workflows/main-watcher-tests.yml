@@ -25,7 +25,7 @@ permissions:
 jobs:
   tests:
     name: main-watcher-tests
-    uses: main-watcher-sandbox/gate/.github/workflows/run-integration-tests.yml@ts-s16-report-stuck
+    uses: main-watcher-sandbox/gate/.github/workflows/run-integration-tests.yml@main
     with:
       sha: ${{ inputs.sha }}
       check-run-id: ${{ inputs.check_run_id }}
