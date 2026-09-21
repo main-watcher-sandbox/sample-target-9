@@ -2,7 +2,7 @@
   "failing_tests": [],
   "timed_tests": true,
   "slow_suite_minutes": 0,
-  "hang_test": true,
+  "hang_test": false,
   "flaky_test": false,
   "inspect_environment": false,
   "fail_restore": false,
