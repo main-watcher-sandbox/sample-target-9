@@ -29,7 +29,7 @@ jobs:
     with:
       sha: ${{ inputs.sha }}
       check-run-id: ${{ inputs.check_run_id }}
-      timeout-minutes: 30
+      timeout-minutes: 2
       # test-command: dotnet test --no-restore
       # restore-command: dotnet restore
       # results-glob: "**/TestResults/*.ctrf.json"
