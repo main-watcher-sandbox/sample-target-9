@@ -22,7 +22,7 @@
     <OutputType>Exe</OutputType>
     <IsPackable>false</IsPackable>
     <!--
-      One CTRF report per project, matching the default results_glob **/TestResults/*.ctrf.json (ADR-007, ADR-020).
+      One CTRF report per project, matching the default results_glob **/TestResults/*.ctrf.json (ADR-007, ADR-021).
       xUnit 4.x names the option after its result writer; 3.x used report-ctrf. Every project writes to the one
       TestResults folder at the repo root, so the file name must differ per project.
     -->
